@@ -11,6 +11,11 @@ public class Department {
         this.location = location;
     }
 
+    public Department(String deptName, String location) {
+        this.deptName = deptName;
+        this.location = location;
+    }
+
     public int getDeptno() {
         return this.deptno;
     }
